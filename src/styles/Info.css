@@ -4,3 +4,69 @@
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
+
+.card__info {
+  text-align: center;
+  padding: 0 35px;
+}
+
+.card__info--name {
+  margin-top: 21px;
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.card__info--role {
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 13px;
+  color: #F3BF99;
+}
+
+.card__info--site {
+  margin-top: 8px;
+  font-size: 10px;
+}
+
+.card__info--site a{
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.card__info--buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__info--buttons > * {
+  width: 115px;
+  padding: 9px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__info--buttons a{
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card__info--buttons a span{
+  margin-left: 9px;
+}
+
+.buttons--email {
+  background-color: #FFFFFF;
+  color: #374151;
+}
+
+.buttons--linkedin {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
