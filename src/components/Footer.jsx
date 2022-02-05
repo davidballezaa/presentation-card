@@ -10,7 +10,7 @@ export default function Footer() {
       <a href="https://twitter.com/DavidBallezaA" target="_blank">
         <img src={twitterIcon}/>
       </a>
-      <a href="">
+      <a href="https://www.facebook.com/davidballezaa" target="_blank">
         <img src={facebookIcon}/>
       </a>
       <a href="https://www.instagram.com/davidballezaa/" target="_blank">
