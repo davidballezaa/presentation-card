@@ -7,16 +7,16 @@ import githubIcon from "../images/github-icon.png"
 export default function Footer() {
   return (
     <footer>
-      <a href="https://twitter.com/DavidBallezaA" target="_blank">
+      <a href="https://twitter.com/DavidBallezaA" target="_blank" rel="noreferrer">
         <img src={twitterIcon}/>
       </a>
-      <a href="https://www.facebook.com/davidballezaa" target="_blank">
+      <a href="https://www.facebook.com/davidballezaa" target="_blank" rel="noreferrer">
         <img src={facebookIcon}/>
       </a>
-      <a href="https://www.instagram.com/davidballezaa/" target="_blank">
+      <a href="https://www.instagram.com/davidballezaa/" target="_blank" rel="noreferrer">
         <img src={instagramIcon}/>
       </a>
-      <a href="https://github.com/davidballezaa" target="_blank">
+      <a href="https://github.com/davidballezaa" target="_blank" rel="noreferrer">
         <img src={githubIcon}/>
       </a>
     </footer>
