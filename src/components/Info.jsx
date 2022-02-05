@@ -6,7 +6,7 @@ import "../styles/Info.css"
 export default function Info() {
   return (
     <>
-    <img src={davidImage} className="card__image"/>
+    <img src={davidImage} className="card__image" alt="david balleza"/>
     <div className="card__info">
       <h1 className="card__info--name">David Balleza</h1>
       <h2 className="card__info--role">Full Stack Web Developer</h2>
@@ -15,11 +15,11 @@ export default function Info() {
       </small>
       <div className="card__info--buttons">
         <a href="mailto:davidballezaa@gmail.com" target="_blank" rel="noreferrer" className="buttons--email">
-          <img src={mailIcon} />
+          <img src={mailIcon} alt="mail icon"/>
           <span>Email</span>
         </a>
         <a href="https://www.linkedin.com/in/davidballezaa/" target="_blank" rel="noreferrer" className="buttons--linkedin">
-          <img src={linkedinIcon} />
+          <img src={linkedinIcon} alt="linkedin logo" />
           <span>LinkedIn</span>
         </a>
       </div>

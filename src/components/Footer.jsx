@@ -8,16 +8,16 @@ export default function Footer() {
   return (
     <footer>
       <a href="https://twitter.com/DavidBallezaA" target="_blank" rel="noreferrer">
-        <img src={twitterIcon}/>
+        <img src={twitterIcon} alt="twitter logo"/>
       </a>
       <a href="https://www.facebook.com/davidballezaa" target="_blank" rel="noreferrer">
-        <img src={facebookIcon}/>
+        <img src={facebookIcon} alt="facebook logo"/>
       </a>
       <a href="https://www.instagram.com/davidballezaa/" target="_blank" rel="noreferrer">
-        <img src={instagramIcon}/>
+        <img src={instagramIcon} alt="instagram logo"/>
       </a>
       <a href="https://github.com/davidballezaa" target="_blank" rel="noreferrer">
-        <img src={githubIcon}/>
+        <img src={githubIcon} alt="github logo"/>
       </a>
     </footer>
   )
