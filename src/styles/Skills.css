@@ -1,0 +1,20 @@
+.skills {
+  margin-top: 32px;
+  padding: 0 34px;
+}
+
+.skills__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: #F5F5F5;
+}
+
+.skills__list {
+  margin: 5px 0;
+}
+
+.skills__list li::marker {
+  color: #F3BF99;
+  font-size: 22px;
+}
