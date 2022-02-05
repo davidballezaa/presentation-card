@@ -21,13 +21,13 @@
   margin-top: 6px;
   margin-bottom: 0;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 16px;
   color: #F3BF99;
 }
 
 .card__info--site {
   margin-top: 8px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .card__info--site a{
@@ -38,7 +38,7 @@
 .card__info--buttons {
   margin-top: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .card__info--buttons > * {
@@ -63,6 +63,7 @@
 .buttons--email {
   background-color: #FFFFFF;
   color: #374151;
+  margin-right: 18px;
 }
 
 .buttons--linkedin {
