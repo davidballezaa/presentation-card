@@ -10,8 +10,7 @@ body {
 }
 
 .card {
-  min-width: 320px;
-  max-width: 500px;
+  width: 320px;
   background-color: #1A1B21;
   margin: 90px auto 0 auto;
   border-radius: 15px;
